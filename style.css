@@ -1,0 +1,99 @@
+body {
+	background: url(flowe.jpg);
+}
+
+#tab_grid {
+	width: 402px;
+	height: 402px;
+	border: 5px solid #999;
+	border-radius: 5px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 1px;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #999;
+	box-shadow: 0px 0px 20px black;
+}
+
+.clks {
+	height: 133px;
+	width: 133px;
+	font-size: 0.1px;
+}
+
+#p11 {
+	background: url('11.jpg');
+}
+
+#p12 {
+	background: url('12.jpg');
+}
+
+#p13 {
+	background: url('13.jpg');
+}
+ 
+#p21 {
+	background: url('21.jpg');
+}
+ 
+#p22 {
+	background: url('22.jpg');
+}
+ 
+#p23 {
+	background: url('23.jpg');
+}
+
+#p31 {
+	background: url('31.jpg');
+}
+ 
+#p32 {
+	background: url('32.jpg');
+}
+
+#p33 {
+	background: url('33.jpg');
+}
+
+#launch {
+	width: 170px;
+	margin: auto;
+	margin-top: 20px;
+	border: 2px solid #999;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	color: black;
+	background-color: #999;
+	box-shadow: 0px 0px 20px black;
+	text-shadow: 0px 0px 10px #000;
+	cursor: pointer;
+	font-family: 'Arial';
+	font-size: 25px;
+}
+#launch:hover {
+	color: #BA6F00;
+	text-shadow: 0px 0px 10px #BA6F00;
+}
+
+#moves {
+	width: 233px;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px solid #999;
+	height: 40px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	color: #000;
+	background-color: white;
+	box-shadow: 0px 0px 20px black;
+	text-shadow: 0px 0px 10px #000;	
+	cursor: pointer;
+	font-family: 'Arial';
+	font-size: 25px;
+}

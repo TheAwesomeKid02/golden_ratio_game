@@ -1,0 +1,69 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100vh;
+}
+
+body {
+	margin: 0;
+	background: radial-gradient(blue,turquoise);
+}
+
+.page-title {
+	color: gold;
+	font-weight: normal;
+	text-align: center;
+	font-size: 6em;
+}
+
+.game-info-container {
+	grid-column: 1 / -1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.game-info {
+	color: limegreen;
+	font-size: 4em;
+}
+
+.game-container {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	grid-gap: 10px;
+	margin: 50px;
+	justify-content: center;
+}
+
+.card {
+	position: relative;
+	height: 175px;
+	width: 175px;
+	overflow: hidden;
+	backface-visibility: hidden;
+}
+
+.card-face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card.visible .card-back {
+	transform: rotate(-180deg);
+}
+
+.card.visible .card-front {
+	transform: rotateY(0);
+}
+
+.flower {
+	position: absolute;
+	width: 175 px;
+	height: 175px;
+}
